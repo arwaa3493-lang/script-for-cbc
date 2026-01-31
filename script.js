@@ -1,9 +1,9 @@
-const referenceRange 
+ 
 const hbInput = documrnt.getElementById("hb");
 const rbcInput = document.getElementById("rbc");
 const wbcInput = document.getElementById("wbc");
 const diagnoseButton = document.getElementById("diagnoseBtn");
-const diagnosisBox = document.getElementById("diagnosis");
+const diagnosisBox = document.getElementById("diagnosisBox");
 const ranges = {
   ,hb: {low: 12, high: 16 }
   ,rbc: { low: 4.0, high: 5.5 }

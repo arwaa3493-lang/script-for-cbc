@@ -12,7 +12,7 @@ const ranges = {
 diagnoseBtn.addEventListener("click", function() {
   conset hb = parseFloat(hbInput.value);
   conset rbc = parseFloat(rbcInput.value);
-  conset wbc = parseFloar9wbcInput.value);
+  conset wbc = parseFloat(wbcInput.value);
 let result = "";
   if (hb < ranges.hb.low && rbc < ranges.rbc.low){
     result = "Pattern suggests Anemia mainly due to blood loss or Iron deficiency.";
